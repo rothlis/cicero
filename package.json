@@ -2,6 +2,9 @@
   "name": "cicero",
   "version": "0.1.0",
   "private": true,
+  "bin": {
+    "cicero": "./bin/cicero.js"
+  },
   "dependencies": {
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
