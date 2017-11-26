@@ -7,8 +7,17 @@
     "react-dom": "^16.1.1",
     "react-scripts": "1.0.17"
   },
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.8.2"
+  },
   "scripts": {
     "start": "react-scripts start",
+    "lint": "eslint .",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
