@@ -6,10 +6,10 @@
     "cicero": "./bin/cicero.js"
   },
   "dependencies": {
+    "js-yaml": "^3.10.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "react-scripts": "^1.0.17",
-    "yamljs": "^0.3.0"
+    "react-scripts": "^1.0.17"
   },
   "devDependencies": {
     "eslint": "^4.12.0",
