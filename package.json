@@ -17,13 +17,11 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-react": "^7.5.1",
-    "flow-bin": "^0.59.0",
     "prettier": "^1.8.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "lint": "eslint .",
-    "flow": "flow",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --notify",
     "eject": "react-scripts eject"
