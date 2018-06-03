@@ -9,7 +9,8 @@
     "js-yaml": "^3.10.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "react-scripts": "^1.0.17"
+    "react-scripts": "^1.0.17",
+    "react-virtualized": "^9.19.1"
   },
   "devDependencies": {
     "eslint": "^4.12.0",
