@@ -6,6 +6,7 @@
     "cicero": "./bin/cicero.js"
   },
   "dependencies": {
+    "flat": "^4.0.0",
     "js-yaml": "^3.10.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
