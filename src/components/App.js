@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import AppNav from './AppNav'
 import TranslationNav from './TranslationNav'
-import TranslationRow from './TranslationRow'
+import TranslationList from './TranslationList'
 import './App.css'
 
 class App extends Component {
@@ -12,11 +12,7 @@ class App extends Component {
         <AppNav />
         <TranslationNav />
         <div className="TranslationBar">Bar</div>
-        <div className="TranslationContent">
-          {Array(50)
-            .fill()
-            .map((name, index) => <TranslationRow key={index} />)}
-        </div>
+        <TranslationList />
       </div>
     )
   }
